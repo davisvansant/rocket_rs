@@ -1,0 +1,3 @@
+FROM debian:buster-slim
+COPY target/release/hello_world .
+CMD ./hello_world
