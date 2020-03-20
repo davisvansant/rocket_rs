@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+steps:
+- name: rocket_rs
+  image: rustlang/rust:nightly
+  commands:
+  - cargo test --workspace
+  - cargo build --release
