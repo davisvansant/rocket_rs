@@ -1,0 +1,3 @@
+FROM debian:buster-slim
+COPY target/release/simple_json .
+CMD ./simple_json
